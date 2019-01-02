@@ -1,0 +1,41 @@
+.signup-form {
+  display: block;
+  border-radius: 50px;
+  border: 7px ridge rgba(40,157,234,0.24);
+  border-radius: 20px 20px 20px 20px;
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+
+  .input-text {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+
+    label {
+      font-size: 14px;
+    }
+
+    input {
+      width: 300px;
+      height: 25px;
+      font-size: 14px;
+    }
+  }
+
+  .action {
+    text-align: center;
+
+    button {
+      padding: 5px;
+      margin: 20px;
+      height: 30px;
+      width: 100px;
+      font-size: 16px;
+      background-color: rgba(40,157,234,0.65);
+      border-radius: 20px 20px 20px 20px;
+      cursor: pointer;
+    }
+  }
+}
